@@ -31,7 +31,7 @@ nav ul a{
     text-decoration: none;
 }
 .banner{
-    background: url(/banner.jpg);
+    background: url(banner.jpg);
     margin-top: 4rem;
     position:inherit;
     background-size:cover;
