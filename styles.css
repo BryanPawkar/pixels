@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+header nav{
+    width: 100%;
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+    position:fixed;
+    background-color:indigo;
+    color:ghostwhite;
+    border-bottom: 2px solid ghostwhite;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+}
+nav ul a{
+    color:ghostwhite;
+    text-decoration: none;
+}
+.banner{
+    background: url(/banner.jpg);
+    margin-top: 4rem;
+    position:inherit;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    background: rgba(248, 248, 255, 0.497);
+    width: 50%;
+    border-radius: 4px;
+    padding: 3rem;
+    margin: 10rem 0;
+    box-shadow: 6px 5px 10px 1px rgba(76, 0, 130, 0.654);
+}
+.contact{   
+    top: 0;
+    h3{
+        text-align: center;
+        font-weight: 100;
+        font-size: 2rem;
+        color: ghostwhite;
+        text-shadow: 1px 2px 1px indigo;
+        font-style: italic;
+    }
+    h1{
+        text-align: center;
+        font-size: 3rem;
+        color: indigo;
+        text-shadow: 0px 2px 10px ghostwhite;
+        text-transform: uppercase;
+    }
+    button{
+        margin: 1.5rem 0;
+        padding: 1.5rem 0;
+        border-radius: 4px;
+        border: 1px solid indigo;
+        font-size: 2rem;
+        background: indigo;
+        color: ghostwhite;
+    }
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem 0;
+    padding: 3rem 0;
+    background: ghostwhite;
+    h2{
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+        color: indigo;
+    }
+    p{
+        width: 100%;
+        text-align: center;
+        padding: 0 2rem;
+        margin: 1rem 0;
+        font-weight: 100;
+        font-size: 1.5rem;
+        text-shadow: 1px 1px 1px indigo;
+        color: ghostwhite;
+    }
+}
+.gallery{
+    h3{
+        font-weight: 100;
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+footer{
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    background-color: indigo;
+    font-size: 0.5rem;
+    height: 2rem;
+    color: ghostwhite;
+}
